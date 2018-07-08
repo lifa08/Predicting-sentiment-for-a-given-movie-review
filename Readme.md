@@ -58,9 +58,10 @@ lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb: tidy version of stm_parse_add
 
 aclImdb_2idx.ipynb: Create a dictionary from the textual aclImdb dataset and convert the textual dataset to numerical dataset containing the ids of the words in the textual dataset.
 
-word2vec_vs_gensim.ipynb: Exploring two word2vec models (word2vec vs gensim)
-
-Others: the outputs of the running of above codes
+**word2vec_vs_gensim.ipynb**: Exploring two word2vec models (word2vec vs gensim)
 
 ### Some experimental statistics
 
+![Statistics for experiment 1](experiment1.png)
+![Statistics for experiment 2](experiment2.png)
+![Statistics for experiment 3](experiment3.png)

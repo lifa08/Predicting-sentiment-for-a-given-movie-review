@@ -62,6 +62,6 @@ aclImdb_2idx.ipynb: Create a dictionary from the textual aclImdb dataset and con
 
 ### Some experimental statistics
 
-![Statistics for experiment 1](experiment1.png)
-![Statistics for experiment 2](experiment2.png)
-![Statistics for experiment 3](experiment3.png)
+![Statistics for experiment 1](experiment1.png|width=200)
+![Statistics for experiment 2](experiment2.png|width=200)
+![Statistics for experiment 3](experiment3.png|width=200)

@@ -62,8 +62,8 @@ aclImdb_2idx.ipynb: Create a dictionary from the textual aclImdb dataset and con
 
 ### Some experimental statistics
 
-<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment1.png" width="200">
+<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment1.png" width="400">
 
-<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment2.png" width="200">
+<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment2.png" width="400">
 
-<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment3.png" width="200">
+<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment3.png" width="400">

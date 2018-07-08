@@ -114,5 +114,5 @@ def train_gensim_w2vec(path, Wemb_size=128, w2v_iter=10):
     model.save('gensim/imdb_gensim_vmodel')
 
 if __name__ == '__main__':
-    path = '/Users/lifa08/Documents/Lifa/Machine_Learning/Miniproject_test/aclImdb/' 
-    train_gensim_w2vec()
+    path = '/Users/lifa08/Local_documents/Machine_Learning/Miniproject_test/aclImdb/'
+    train_gensim_w2vec(path)

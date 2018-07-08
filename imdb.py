@@ -7,6 +7,7 @@ import os
 
 import numpy
 import theano
+import gensim
 
 def prepare_data(seqs, labels, maxlen = None):
     """Create the matrices from the datasets.
@@ -74,7 +75,6 @@ def get_dataset_file(dataset, default_dataset, origin):
         print('Downloading data from %s' % origin)
         urllib.request.urlretrieve(origin, dataset)
 
-        
     return dataset
 
 
@@ -143,16 +143,17 @@ def load_data(path, n_words=100000, valid_portion=0.1, maxlen=None,
     def remove_unk(x, unk_tok):
         return [[unk_tok if w >= n_words else w for w in sen] for sen in x]
 
-    model = gensim.models.Word2Vec.load('gensim/imdb_gensim_vmodel')
+    model = gensim.models.Word2Vec.load(
+        '/Users/lifa08/Local_documents/Machine_Learning/miniproject/gensim/imdb_gensim_w2vmodel')
     unk_tok = model.wv.vocab['.'].index
 
     test_set_x, test_set_y = test_set
     valid_set_x, valid_set_y = valid_set
     train_set_x, train_set_y = train_set
 
-    train_set_x = remove_unk(train_set_x)
-    valid_set_x = remove_unk(valid_set_x)
-    test_set_x = remove_unk(test_set_x)
+    train_set_x = remove_unk(train_set_x, unk_tok)
+    valid_set_x = remove_unk(valid_set_x, unk_tok)
+    test_set_x = remove_unk(test_set_x, unk_tok)
 
     def len_argsort(seq):
         return sorted(range(len(seq)), key=lambda x: len(seq[x]))
@@ -195,5 +196,5 @@ def load_sentence_length(path="imdb.pkl"):
     train_set = pickle.load(f)
     test_set = pickle.load(f)
     f.close()
-    
+
     return [len(sen) for sen in train_set[0]], [len(sen) for sen in test_set[0]]

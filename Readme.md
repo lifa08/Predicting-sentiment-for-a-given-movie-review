@@ -6,7 +6,7 @@ Use deep learning to accomplish the sentimental prediction task. Specifically, t
 
 #### The first method: use RNN to predict the sentimental polarity of a given document  
 
-![Method graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/LSTM.png
+![Method graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/LSTM.png)
 
 Implemented in lstm_parse_add_gru-vanilla.ipynb
 

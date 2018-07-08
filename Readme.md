@@ -6,15 +6,20 @@ Use deep learning to accomplish the sentimental prediction task. Specifically, t
 
 #### The first method: use RNN to predict the sentimental polarity of a given document  
 
-![Method graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/LSTM.png)
+![Method 1 graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/LSTM.png)
 
 Implemented in lstm_parse_add_gru-vanilla.ipynb
 
 #### The second method: combine RNN method with word2vec
 
+![Method 2 graph](LSTM_Wordembedding.png)
+
 Implemented in lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb
 
+
 #### The third method: combine doc2vec with standard logistic regression classifier
+
+![Method 3 graph](doc2vec.png)
 
 Implemented in Doc2Vec_NN.ipynb
 

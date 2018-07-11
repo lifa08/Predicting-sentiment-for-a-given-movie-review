@@ -1,9 +1,9 @@
 # ignore all logs
 *.ipynb_checkpoints
 __pycache__/*
-imdb.d2v
-imdb.d2v.syn1neg.npy
-imdb.d2v.wv.syn0.npy
+*imdb.d2v
+*imdb.d2v.syn1neg.npy
+*imdb.d2v.wv.syn0.npy
 imdb.dict.pkl
 imdb.pkl
 lstm_gru-vanilla.ipynb
@@ -14,3 +14,5 @@ sentence_phrases.txt
 sentence_phrases_bin.bin
 sentence_phrases_clusters.txt
 errs.png
+data/
+*.DS_Store

@@ -144,7 +144,7 @@ def load_data(path, n_words=100000, valid_portion=0.1, maxlen=None,
         return [[unk_tok if w >= n_words else w for w in sen] for sen in x]
 
     model = gensim.models.Word2Vec.load(
-        '/Users/lifa08/Local_documents/Machine_Learning/miniproject/gensim/imdb_gensim_w2vmodel')
+        '../data/gensim/imdb_gensim_w2vmodel')
     unk_tok = model.wv.vocab['.'].index
 
     test_set_x, test_set_y = test_set

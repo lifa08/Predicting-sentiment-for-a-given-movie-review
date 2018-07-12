@@ -16,6 +16,9 @@ sentence_phrases_clusters.txt
 errs.png
 *.DS_Store
 
+*__pycache__/
+*.py[cod]
+
 #.git_folder_placeholder added manually
 data/gensim/* 
 #.git_folder_placeholder added manually

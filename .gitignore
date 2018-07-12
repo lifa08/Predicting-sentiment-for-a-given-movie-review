@@ -14,11 +14,14 @@ sentence_phrases.txt
 sentence_phrases_bin.bin
 sentence_phrases_clusters.txt
 errs.png
+*.DS_Store
+
 #.git_folder_placeholder added manually
 data/gensim/* 
 #.git_folder_placeholder added manually
 data/aclImdb/* 
 #.git_folder_placeholder added manually
 data/imdb/* 
+#.git_folder_placeholder added manually
+trained_models/*
 
-*.DS_Store

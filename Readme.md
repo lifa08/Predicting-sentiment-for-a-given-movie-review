@@ -6,20 +6,20 @@ Use deep learning to accomplish the sentimental prediction task. Specifically, t
 
 #### The first method: use RNN to predict the sentimental polarity of a given document  
 
-![Method 1 graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/LSTM.png)
+![Method 1 graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/img/Method1/LSTM.png)
 
 Implemented in lstm_parse_add_gru-vanilla.ipynb
 
 #### The second method: combine RNN method with word2vec
 
-![Method 2 graph](LSTM_Wordembedding.png)
+![Method 2 graph](img/Method2/LSTM_Wordembedding.png)
 
 Implemented in lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb
 
 
 #### The third method: combine doc2vec with standard logistic regression classifier
 
-![Method 3 graph](doc2vec.png)
+![Method 3 graph](img/Method3/doc2vec.png)
 
 Implemented in Doc2Vec_NN.ipynb
 
@@ -62,8 +62,8 @@ aclImdb_2idx.ipynb: Create a dictionary from the textual aclImdb dataset and con
 
 ### Some experimental statistics
 
-<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment1.png" width="400">
+<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/img/experiment1.png" width="400">
 
-<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment2.png" width="400">
+<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/img/experiment2.png" width="400">
 
-<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/experiment3.png" width="400">
+<img src="https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/img/experiment3.png" width="400">

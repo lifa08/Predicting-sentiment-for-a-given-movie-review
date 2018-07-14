@@ -40,23 +40,21 @@ The IMDB dataset. Can be downloaded from [here](http://ai.stanford.edu/~amaas/da
 
 ### Descriptions of files
 
-Doc2Vec_NN.ipynb: implementation of method 3 which combine doc2vec with standard logistic regression classifier
-
-Doc2Vec_tutorial.ipynb: Exploring Gensim Doc2Vec Tutorial on the IMDB Sentiment 
+<table>
+<tr>
+<td>Doc2Vec_NN.ipynb</td>
+<td>Implementation of method 3 which combine doc2vec with standard logistic regression classifier</td>
+</tr>
+</table>
+**Doc2Vec_tutorial.ipynb:** Exploring Gensim Doc2Vec Tutorial on the IMDB Sentiment 
 
 Statistic_data.ipynb: Get the statistics about the length of sentences in the dataset
 
 Wemb_gensim.ipynb: Proprocess raw texts to digital indices and train them to word embeddings via gensim's word2vec
 
-Wemb_gensim.py: Python version of Wemb_gensim.ipynb.
-
-imdb.py: Functions to load data, prepare data for training.
-
 lstm_parse_add_gru-vanilla.ipynb: Implementation of the first method which uses RNN to predict the sentimental polarity of a given document
 
-lstm_parse_add_gru-vanilla_Wemb_gensim.ipynb: Implementation of the second method which combines RNN method with gensim's word2vec
-
-lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb: tidy version of stm_parse_add_gru-vanilla_Wemb_gensim.ipynb
+lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb: Implementation of the second method which combines RNN method with gensim's word2vec
 
 aclImdb_2idx.ipynb: Create a dictionary from the textual aclImdb dataset and convert the textual dataset to numerical dataset containing the ids of the words in the textual dataset.
 

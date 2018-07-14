@@ -2,6 +2,8 @@
 
 Use deep learning to accomplish the sentimental prediction task. Specifically, the neural network contains a layer of recurrent neural network and a layer of logistic classifier. The reccurent neural network is used to learn a embedding vector for a given word. Such combination can incorporate sentimental meanings to the word embedding vectors.
 
+![Overall graph](img/overall_graph.png)
+
 ### Three methods
 
 #### The first method: use RNN to predict the sentimental polarity of a given document  

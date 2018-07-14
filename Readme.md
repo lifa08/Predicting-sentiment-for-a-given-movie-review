@@ -7,6 +7,8 @@ Use deep learning to accomplish the sentimental prediction task. Specifically, t
 <li>Using doc2vec </li>
 </ol>
 
+In order to run the code, you need to first download and process the training data. Instructions can be found in data/readme.txt.
+
 ![Overall graph](img/overall_graph.png)
 
 ### Three methods
@@ -15,20 +17,20 @@ Use deep learning to accomplish the sentimental prediction task. Specifically, t
 
 ![Method 1 graph](https://raw.githubusercontent.com/lifa08/Predicting-sentiment-for-a-given-movie-review/develop/img/Method1/LSTM.png)
 
-Implemented in lstm_parse_add_gru-vanilla.ipynb
+Implemented in notebooks/3_lstm_parse_add_gru-vanilla.ipynb
 
 #### The second method: combine RNN method with word2vec
 
 ![Method 2 graph](img/Method2/LSTM_Wordembedding.png)
 
-Implemented in lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb
+Implemented in notebooks/2_lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb
 
 
 #### The third method: combine doc2vec with standard logistic regression classifier
 
 ![Method 3 graph](img/Method3/doc2vec.png)
 
-Implemented in Doc2Vec_NN.ipynb
+Implemented in notebooks/3_Doc2Vec_NN.ipynb
 
 ### Libraries used
 

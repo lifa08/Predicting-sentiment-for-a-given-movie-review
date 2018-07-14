@@ -85,6 +85,7 @@ This folder contains all the jupyter notebook files. The code should be run thro
 </tr>
 
 </table>
+
 #### Folder: data
 This folder contains placeholder for the training data. Please read the readme.txt inlcuded in the folder for instruction of how to download/create the needed data.
 

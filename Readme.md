@@ -2,9 +2,9 @@
 
 Use deep learning to accomplish the sentimental prediction task. Specifically, the neural network contains a layer of recurrent neural network and a layer of logistic classifier. The reccurent neural network is used to learn a embedding vector for a given word. Such combination can incorporate sentimental meanings to the word embedding vectors. The code includes 3 different methods to accomplish this task: 
 <ol>
-<li>1) Using an embedding layer together with a RNN,</li>
-<li>2) Using word2vec together with a RNN </li>
-<li>3) Using doc2vec </li>
+<li>Using an embedding layer together with a RNN,</li>
+<li>Using word2vec together with a RNN </li>
+<li>Using doc2vec </li>
 </ol>
 
 ![Overall graph](img/overall_graph.png)

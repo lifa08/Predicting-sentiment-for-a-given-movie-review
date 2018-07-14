@@ -70,6 +70,11 @@ This folder contains all the jupyter notebook files. The code should be run thro
 </tr>
 
 <tr>
+<td>info_word2vec_vs_gensim.ipynb</td> 
+<td>Exploring two word2vec models (word2vec vs gensim)</td>
+</tr>
+
+<tr>
 <td>pre_1_2_3_Wemb_gensim.ipynb</td> 
 <td>Proprocess raw texts to digital indices and train them to word embeddings via gensim's word2vec</td> 
 </tr>
@@ -79,10 +84,7 @@ This folder contains all the jupyter notebook files. The code should be run thro
 <td>Create a dictionary from the textual aclImdb dataset and convert the textual dataset to numerical dataset containing the ids of the words in the textual dataset.</td> 
 </tr>
 
-<tr>
-<td>word2vec_vs_gensim.ipynb</td> 
-<td>Exploring two word2vec models (word2vec vs gensim)</td>
-</tr>
+
 
 </table>
 

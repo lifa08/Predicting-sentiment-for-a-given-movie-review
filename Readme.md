@@ -40,47 +40,62 @@ The IMDB dataset. Can be downloaded from [here](http://ai.stanford.edu/~amaas/da
 
 ### Descriptions of files
 
-## Folder: notebooks
-This folder contains all the jupyter notebook files. The code should be run through them and not from individual python scripts.
+#### Folder: notebooks
+This folder contains all the jupyter notebook files. The code should be run through them and not from individual python scripts. The files with the prefix "pre_" should be run first. The files with a number (1,2,3) are the main scripts. The files with the prefix "info_" are additional files that explain the code further.
 <table>
 
 <tr>
-<td>Doc2Vec_NN.ipynb</td>
-<td>Implementation of method 3 which combine doc2vec with standard logistic regression classifier</td>
-</tr>
-
-<tr>
-<td>Doc2Vec_tutorial.ipynb</td> 
-<td>Exploring Gensim Doc2Vec Tutorial on the IMDB Sentiment</td> 
-</tr>
-
-<tr>
-<td>Statistic_data.ipynb</td> 
-<td>Get the statistics about the length of sentences in the dataset</td> 
-</tr>
-
-<tr>
-<td>Wemb_gensim.ipynb</td> 
-<td>Proprocess raw texts to digital indices and train them to word embeddings via gensim's word2vec</td> 
-</tr>
-
-<tr>
-<td>lstm_parse_add_gru-vanilla.ipynb</td> 
+<td>1_lstm_parse_add_gru-vanilla.ipynb</td> 
 <td>Implementation of the first method which uses RNN to predict the sentimental polarity of a given document</td> 
 </tr>
 
 <tr>
-<td>lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb</td> 
+<td>2_lstm_parse_add_gru-vanilla_Wemb_gensim_tidy.ipynb</td> 
 <td>Implementation of the second method which combines RNN method with gensim's word2vec</td> 
 </tr>
 
 <tr>
-<td>aclImdb_2idx.ipynb</td> 
+<td>3_Doc2Vec_NN.ipynb</td>
+<td>Implementation of method 3 which combine doc2vec with standard logistic regression classifier</td>
+</tr>
+
+<tr>
+<td>info_Doc2Vec_tutorial.ipynb</td> 
+<td>Exploring Gensim Doc2Vec Tutorial on the IMDB Sentiment</td> 
+</tr>
+
+<tr>
+<td>info_Statistic_data.ipynb</td> 
+<td>Get the statistics about the length of sentences in the dataset</td> 
+</tr>
+
+<tr>
+<td>pre_1_2_3_Wemb_gensim.ipynb</td> 
+<td>Proprocess raw texts to digital indices and train them to word embeddings via gensim's word2vec</td> 
+</tr>
+
+<tr>
+<td>pre_3_aclImdb_2idx.ipynb</td> 
 <td>Create a dictionary from the textual aclImdb dataset and convert the textual dataset to numerical dataset containing the ids of the words in the textual dataset.</td> 
 </tr>
 
+<tr>
+<td>word2vec_vs_gensim.ipynb</td> 
+<td>Exploring two word2vec models (word2vec vs gensim)</td>
+</tr>
+
 </table>
-**word2vec_vs_gensim.ipynb**: Exploring two word2vec models (word2vec vs gensim)
+#### Folder: data
+This folder contains placeholder for the training data. Please read the readme.txt inlcuded in the folder for instruction of how to download/create the needed data.
+
+#### Folder: trained_models
+This folder will contain the models trained by the scripts.
+
+#### Folder: script
+This folder contains script needed by the jupyter notebook scripts.
+
+#### Folder: img
+Contains images used in this readme.
 
 ### Some experimental statistics
 
